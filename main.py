@@ -38,6 +38,16 @@ do not know why" shrug. The text is ASCII-only on
 purpose: every character is one byte, so the 73-character
 text is also 73 bytes, and a smaller text wins an exact
 tie on Judge win rate before earlier receipt does.
+
+Revision note: the "fix:" prefix plus present tense is
+what makes the line read as a real log entry instead of
+a joke setup -- a commit message is a record, not a
+punchline, so the humour has to survive being read by
+someone skimming git log at 6am. The relay (2am -> 4am
+-> 6am) is also deliberately one-directional: the agent
+never claims the bug is fixed, only that the next one
+has a later timestamp, which is why the line still
+works on a re-read after the laugh.
 """
 
 import os
